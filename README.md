@@ -33,3 +33,17 @@ as payload in Intruder.
 Burp Suite - Extender - Options - Python Environment
 2. Load the 'SuperPayload.py' in Burp Suite - Extensions as Python type.
 ```
+
+## Base64 Injector
+### Description
+```
+Extention adds a 'Base64 injector' tab to Burp, you can set parameters in the \
+tab and generate scanner insertion point. This extension can help you run burp \
+security cases on the parameters base64-encoded. 
+```
+### Installation
+``` 
+1. Confirm the jython standalone jar module is loaded, in \
+Burp Suite - Extender - Options - Python Environment
+2. Load the 'Base64Injector.py' in Burp Suite - Extensions as Python type.
+```
